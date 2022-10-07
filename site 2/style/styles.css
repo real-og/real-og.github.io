@@ -1,8 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 body {
     font-family: 'Open Sans';
+    padding: 5%;
 }
 
 h1 {
     text-align: center;
+    font-size: 250%;
+}
 
+#tools_header {
+    text-align: center;
+    padding: 2%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+
+li {
+    display: inline;
+    font-size: x-large;
+    color: #408253;
+    border-left:2px solid #E5E5E5;
+    padding:0 2px 0 4px;
+}
+li:first-child {
+    border:none;
+}
+a {
+    color: #408253;
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+    height: 100%;
+}
+picture {
+    vertical-align: top;
+    max-width: 100%;
+    height: 100%;
+}
+p {
+    text-align: center;
 }
